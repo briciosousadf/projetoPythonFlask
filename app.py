@@ -64,7 +64,7 @@ def exibir_mensagem():
 
 @app.route("/produto")
 def exibe_produto():
-    return render_template("index.html", **produto)
+    return render_template("produto.html", **produto)
 
 @app.route("/produtos")
 def exibe_produtos():
